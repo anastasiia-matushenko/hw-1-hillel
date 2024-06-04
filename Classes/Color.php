@@ -1,5 +1,7 @@
 <?php
 
+namespace Overload;
+
 class Color
 {
     public function __construct(private int $red, private int $green, private int $blue)

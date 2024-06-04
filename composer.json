@@ -1,0 +1,11 @@
+{
+    "name": "root/html",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Overload\\": "Classes/",
+            "Exceptions\\": "Exceptions/"
+        }
+    },
+    "require": {}
+}
