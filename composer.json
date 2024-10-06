@@ -3,9 +3,13 @@
     "type": "project",
     "autoload": {
         "psr-4": {
-            "Overload\\": "Classes/",
-            "Exceptions\\": "Exceptions/"
-        }
+            "App\\": "App/",
+            "Core\\": "core/"
+        },
+        "files": [
+            "core/helpers.php",
+            "routes/api.php"
+        ]
     },
     "require": {}
 }
